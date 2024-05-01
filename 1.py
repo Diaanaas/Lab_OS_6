@@ -25,8 +25,8 @@ def multiply_matrices(A, B):
 
     return result
 
-A = [[1, 2], [3, 4]]
-B = [[5, 6], [7, 8]]
+A = [[2, 5], [1, 3]]
+B = [[5, 7], [3, 2]]
 result = multiply_matrices(A, B)
 print("Результат:")
 for row in result:
